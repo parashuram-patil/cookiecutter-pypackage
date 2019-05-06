@@ -95,3 +95,8 @@ target/
 # Cookiecutter
 output/
 python_boilerplate/
+
+# Virtual Env
+.venv
+venv/
+venv.bak/
