@@ -25,4 +25,4 @@ deploy:
   on:
     tags: true
     repo: audreyr/python_project_template
-    python: 2.7
+    python: 3.7
