@@ -1,9 +1,12 @@
 # Config file for automatic testing at travis-ci.org
 
-dist: xenial    # required for Python >= 3.7
 language: python
 python:
   - 3.7
+  - 3.6
+  - 3.5
+  - 3.4
+  - 2.7
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox-travis
@@ -20,5 +23,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: audreyr/python_boilerplate
+    repo: audreyr/python_project_template
     python: 2.7
