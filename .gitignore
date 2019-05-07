@@ -100,3 +100,6 @@ python_boilerplate/
 .venv
 venv/
 venv.bak/
+
+# IDE's
+.idea/
